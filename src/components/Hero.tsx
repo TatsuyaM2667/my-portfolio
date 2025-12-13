@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Contact = () => {
+const Hero = () => {
   return (
     <div>
-      contact zone
+      hero zobe
     </div>
   )
 }
 
-export default Contact
+export default Hero
