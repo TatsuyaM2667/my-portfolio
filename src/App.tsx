@@ -9,9 +9,9 @@ function App() {
     <>
     <Hero/>
     <Skills/>
-    <Works/>
+    <Works id="works"/>
     <Experience/>
-<Contact/>
+<Contact id="contact"/>
 </>
   );
 }

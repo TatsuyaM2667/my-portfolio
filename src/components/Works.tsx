@@ -1,7 +1,9 @@
-
-const Works = () => {
+interface WorksProps {
+    id?: string;
+}
+const Works = (props: WorksProps) => {
   return (
-    <div>
+    <div id={props.id}>
       works zone
     </div>
   )

@@ -1,7 +1,9 @@
-
-const Contact = () => {
+interface ContactProps {
+    id?: string;
+}
+const Contact = (props: ContactProps) => {
   return (
-    <div>
+    <div id={props.id}>
       contact zone
     </div>
   )
