@@ -1,6 +1,7 @@
 .app-container {
-background: #000000;
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(184, 0, 0, 1) 100%);}
+    background: #000000;
+background: linear-gradient(143deg, rgba(0, 0, 0, 1) 50%, rgba(184, 0, 0, 1) 100%);
+}
 .hero {
   display: flex;
   justify-content: center;
