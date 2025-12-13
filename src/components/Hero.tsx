@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <img src="/favicon.ico" alt="Profile" />
+        <img src="/favicon.ico" alt="Profile" className="profile-image" />
 
         <h1>Tatsuya.M</h1>
         <h2>Web Developer</h2>
