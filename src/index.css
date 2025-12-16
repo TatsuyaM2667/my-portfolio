@@ -5,14 +5,12 @@
 }
 
 body {
-  background: #000000;
   background: linear-gradient(143deg, rgba(0, 0, 0, 1) 50%, rgba(184, 0, 0, 1) 100%);
   margin: 0;
   padding: 0;
 }
 
 .app-container {
-    background: #000000;
     background: linear-gradient(143deg, rgba(0, 0, 0, 1) 50%, rgba(184, 0, 0, 1) 100%);
     text-align: center;
     color: white;
@@ -82,13 +80,44 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: left;
+    display: block;
+    gap: 1.5rem;
+}
+
+.skill-section {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-section h3 {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.skill-section img {
+    margin-bottom: 1rem;
+}
+
+.skill-section .chart-container {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.skill-section.visible .chart-container {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .timeline {
   position: relative;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 0 0;
   padding: 20px 0;
+  text-align: left;
 }
 
 .timeline::before {
