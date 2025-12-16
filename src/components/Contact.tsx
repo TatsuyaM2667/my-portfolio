@@ -20,7 +20,7 @@ const Contact = (props: ContactProps) => {
           <FaTwitter />
           <h6>Twitter</h6>
         </a>
-        <a href="https://discordapp/users/823935313410916372" target="_blank" rel="noopener noreferrer">
+        <a href="https://discordapp.com/users/823935313410916372" target="_blank" rel="noopener noreferrer">
           <FaDiscord />
           <h6>Discord</h6>
         </a>
