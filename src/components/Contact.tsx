@@ -28,7 +28,7 @@ const Contact = (props: ContactProps) => {
           <FaInstagram />
           <h6>Instagram</h6>
         </a>
-        <a href="https://linkedin.com/in/tatsuyam2667" target="_blank" rel="noopener noreferrer">
+        <a href="www.linkedin.com/in/tatsuya-miura-1bb48339a" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
           <h6>LinkedIn</h6>
         </a>
