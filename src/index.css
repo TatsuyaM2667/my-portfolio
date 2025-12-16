@@ -83,3 +83,47 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: left;
 }
+
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #fff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 60px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.timeline-content h3 {
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+.timeline-content p {
+  margin: 0;
+  color: #ccc;
+}
