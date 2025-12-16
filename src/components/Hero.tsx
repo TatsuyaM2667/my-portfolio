@@ -14,7 +14,7 @@ const Hero = () => {
           <button onClick={() => document.getElementById('works')?.scrollIntoView()}>
             作品を見る
              </button>
-          <button onClick={() => document.getElementById('contact')?.scrollIntoView()}>連絡する</button>
+          <button onClick={() => document.getElementById('contact')?.scrollIntoView()}>Contact</button>
         </div>
       </div>
     </section>
