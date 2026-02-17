@@ -56,7 +56,8 @@ const Skills = () => {
 
   const toolsData = [
     { name: 'Windows', value: 90 },
-    { name: 'arvhlinux', value: 90 },
+    { name: 'archlinux', value: 90 },
+    { name: 'ubuntu', value: 90 },
     { name: 'Arduino', value: 70 },
     { name: 'VS Code', value: 95 },
     { name: 'Git', value: 85 },
