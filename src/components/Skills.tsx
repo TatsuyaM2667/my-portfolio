@@ -56,6 +56,7 @@ const Skills = () => {
 
   const toolsData = [
     { name: 'Windows', value: 90 },
+    { name: 'arvhlinux', value: 90 },
     { name: 'Arduino', value: 70 },
     { name: 'VS Code', value: 95 },
     { name: 'Git', value: 85 },
@@ -63,6 +64,7 @@ const Skills = () => {
     { name: 'Vite', value: 80 },
     { name: 'Google Apps Script', value: 60 },
     { name: 'Android Studio', value: 65 },
+
   ];
 
   const databaseData = [
