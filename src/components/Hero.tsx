@@ -7,7 +7,7 @@ const Hero = () => {
         <img src="/favicon.ico" alt="Profile" className="profile-image" />
 
         <h1>Tatsuya.M</h1>
-        <h2>Web Developer</h2>
+        <h2>Fullstack engineer</h2>
         <p>Hello I'm Tatsuya.M</p>
 
         <div className="hero-buttons" >

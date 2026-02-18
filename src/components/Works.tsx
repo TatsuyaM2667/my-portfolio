@@ -1,23 +1,33 @@
 import React from 'react';
 import Projects from './canvas/Projects';
 
+
 const Works = ({ id }: { id?: string }) => {
   const projectList = [
     {
       title: "Music App",
-      subtitle: "Cloudflare / React / Firebase",
+      subtitle: "Cloudflare / React / Firebase Hosting",
       description: "Cloudflare R2を使用した音楽配信プラットフォーム。高音質なストリーミングを実現。",
-      imageUrl: "/Projects/Screenshot From 2026-02-17 22-25-13.png"
+      imageUrl: "/Projects/2026-02-18_15-03.png",
+     href: "https://github.com/TatsuyaM2667/FluxAudio-MusicApp", 
+     target: "_blank", 
+     rel: "noopener noreferrer"
     },
     {
       title: "ChatApp",
-      subtitle: "Google AppScript",
+      subtitle: "Google AppScript/Firebase",
+      description: "",
+      imageUrl: "/Projects/2026-02-18_14-58.png"
+    },
+    {
+      title: "Browser App",
+      subtitle: "React Native,electron,vite",
       description: "",
       imageUrl: "/Projects/Screenshot From 2026-02-17 22-25-13.png"
     },
-    {
-      title: "Works Zone",
-      subtitle: "Arch Linux / Vite",
+     {
+      title: "Browser App",
+      subtitle: "React Native,electron,vite",
       description: "",
       imageUrl: "/Projects/Screenshot From 2026-02-17 22-25-13.png"
     }
